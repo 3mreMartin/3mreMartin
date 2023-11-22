@@ -54,7 +54,7 @@ Internet bağlantısı için standard load balancer kullanıldığında SNAT por
 Azure sanal makinalar aynı subnet’te bulunan NAT Gateway’in Public IP yada IP Prefix’lerini kullanarak internete bağlanır. NAT gateway birden fazla Subnet ile ilişkilendirilebilir.
 Azure NAT gateway, Azure Load Balancer’dan farklı olarak sadece giden internet bağlantısı için kullanılır.  NAT gateway bir subnet ile ilişkilendirildiği zaman ekstra bir yapılandırmaya gerek yoktur, System Route’ları internet yönündeki tüm trafiğin NAT Gateway’e yönlendirilecek şekilde otomatik olarak yapılandırılır.
 
-Hangi durumdalarda Nat Gateway tercih edilmeli:
+Hangi durumdalarda Nat Gateway tercih edilmeli ?
 1.	Internet bağlantısı için Static ve öngörülebilir Public IP’lere ihtiyacınız varsa. 
 2.	İnternete trafik gönderen dinamik veya büyük iş yüklerine sahipseniz
 3.	Azure Firewall veya Load Balancer kullanıldığında SNAT port Exhaustion durumu varsa. 
@@ -63,7 +63,7 @@ NAT Gateway her bir Public IP için 64512 SNAT bağlantı noktası destekler ve 
 
 **3.Instance Level Public IP**
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ippng?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ip.png?raw=true" width="95%" height="95%" />
 
 Sanal makinalar internet bağlantısı için Network Interface’lerine atanan Public IP’leri kullanılır. 
 Public IP ataması ile direk internet bağlantısına sahip olacağınız gibi aynı zamanda diğer kaynakların bu public ip üzerinden sizin makinanıza erişebilir olması demektir. Buda ciddi güvenlik riskleri demektir. Birden fazla sanal makinaya public IP atamak ve NSG kurallarını yönetmek bu hata riskini arttıracaktır.

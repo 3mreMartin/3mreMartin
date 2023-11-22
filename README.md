@@ -21,9 +21,9 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın.](https://martinemre.github.io/azure/Store-MARS-Agent-passpsrase-on-Keyvault/)
-- [Azure Bastion Developer Sku For Your Dev/test Environments](https://martinemre.github.io/Azure-Bastion-Developer-SKU-for-Your-Dev-Test-Environments/)
+- [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın.](https://martinemre.github.io/azure/Store-MARS-Agent-passpsrase-on-Key-Vault/)
+- [Dev/Test Ortamlarınız İçin Düşük Maliyetli Azure Bastion Developer SKU](https://martinemre.github.io/azure/Azure-Bastion-Developer-SKU-for-Your-Dev-Environments/)
 - [Application Gateway WAF &amp; Rate Limiting Özelliği ile Tanışın](https://martinemre.github.io/azure/Application-Gateway-WAF-Rate-Limiting-Feature/)
-- [Azure App Service üzerinde WordPress için Ücretsiz Barındırma Planı](https://martinemre.github.io/azure/Free-Hosting-Plan-for-WordPress-on-Azure-App-Service/)
+- [Azure App Service üzerinde Ücretsiz WordPress Barındırma Planı](https://martinemre.github.io/azure/Free-Hosting-Plan-for-WordPress-on-Azure-App-Service/)
 <!-- BLOG-POST-LIST:END -->
 

@@ -15,3 +15,5 @@ Belirli senaryolar Azure VM’lerin doğrudan internet bağlantısına sahip olm
 Varsayılan bu yöntemde Azure VM’ler internet bağlantısı için IP havuzundan atanan rastgele bir Public IP adresini kullanırlar. Bu Public IP Microsoft’a ait olduğudan makinaların Stop/Deallocate durumlarında değişebilileceği gibi öncesinde hangi Public IP’yi kullanacağınızı belirlemeninde bir yolu yoktur ve bu sebebten üretim ortamlarında kullanılması önerilmez.
 
 Microsoft tüm bu sebebleri göz önünde bulundurarak güvenlik sebebi ile **30 Eylül 2025** itibarı ile artık bu yöntemin kullanımdan kaldıracağını duyurdu. 
+
+https://azure.microsoft.com/en-us/updates/default-outbound-access-for-vms-in-azure-will-be-retired-updates-and-more-information/

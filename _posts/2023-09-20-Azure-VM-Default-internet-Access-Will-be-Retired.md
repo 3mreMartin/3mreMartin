@@ -33,13 +33,13 @@ Internet ortamındaki bir kaynağa erişeceğiniz zaman sizin için Kısa Ömür
 
 ## Azure VM’ler için Internet Erişim Seçekleri
 
-**1.Azure Load Balancer 
+**1.Azure Load Balancer**
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-loadbalancer-internet-acess.png.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-loadbalancer-internet-acess.png?raw=true" width="95%" height="95%" />
 
 Azure Load Balancer arkasına konumlandırılan sanal makinalar, Load Balancer üzerindeki Giden Kuralları (Outbound Rules) tanımlamalarına  göre SNAT yaparak Load Balancer’in Public IP yada IP’lerini kullanarak internete bağlanır. Load Balancer üzerinde SNAT port tahsisi manuel yada varsayılan olarak ayarlanabilir.
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-loadbalancer-port-allocatin.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-loadbalancer-port-allocatin.png?raw=true" width="65%" height="65%" />
 
 Internet bağlantısı için standard load balancer kullanıldığında SNAT port tahsisi için manuel  yöntemin kullanılması önerilir. Varsayılan yöntemde SNAT tahsisi arka uç havuzundaki (Bakend)makina sayısını temel alınacağından SNAT Port Exhaustion durumunun olması kuvvetli bir ihtimaldir. Varsayılan yöntemde tek bir Frontend IP’ye sahip Load Balancer için makina sayısına göre varsayılan SNAT port adedi şu şekildedir:
 
@@ -47,7 +47,7 @@ Internet bağlantısı için standard load balancer kullanıldığında SNAT por
 
 10 makina için varsayılanda 1024 SNAT portu kullanılabilirken, manuel yapılandırma ile 6400 SNAT portuna sahip olabilir, daha fazla SNAT kullanılabilir SNAT portu için Load Balancer üzerine ikinci bir Public IP ekleyebilirsiniz.
 
-**Azure NAT Gateway
+**2.Azure NAT Gateway**
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-nat-gateway-internet.png?raw=true" width="95%" height="95%" />
 
@@ -61,9 +61,9 @@ Hangi durumdalarda Nat Gateway tercih edilmeli:
 
 NAT Gateway her bir Public IP için 64512 SNAT bağlantı noktası destekler ve 16 Public IP adresi ile ilişkilendirilebilir. 16 Public IP adresi NAT gateway üzerinde kullanılabilir 1 milyon SNAT bağlantı noktası demektir.  NAT gateway daha az sayıda Public ile daha fazla SNAT bağlantısı sunmanın yanında ayrıca On-demand SNAT port allocation özelliği sayesinde **SNAT port exhaustion** probleminin önüne geçer.
 
-**Instance Level Public IP
+**3.Instance Level Public IP**
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ip.png.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ippng?raw=true" width="95%" height="95%" />
 
 Sanal makinalar internet bağlantısı için Network Interface’lerine atanan Public IP’leri kullanılır. 
 Public IP ataması ile direk internet bağlantısına sahip olacağınız gibi aynı zamanda diğer kaynakların bu public ip üzerinden sizin makinanıza erişebilir olması demektir. Buda ciddi güvenlik riskleri demektir. Birden fazla sanal makinaya public IP atamak ve NSG kurallarını yönetmek bu hata riskini arttıracaktır.

@@ -21,10 +21,10 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın.](https://martinemre.github.io/azure/Store-MARS-Agent-passpsrase-on-Key-Vault/)
-- [Dev/Test Ortamlarınız İçin Düşük Maliyetli Azure Bastion Developer SKU](https://martinemre.github.io/azure/Azure-Bastion-Developer-SKU-for-Your-Dev-Environments/)
-- [Application Gateway WAF &amp; Rate Limiting Özelliği ile Tanışın](https://martinemre.github.io/azure/Application-Gateway-WAF-Rate-Limiting-Feature/)
-- [Azure VM`ler için Varsayılan Internet Erişimi Kullanımi Emekli Oluyor.](https://martinemre.github.io/azure/Azure-VM-Default-internet-Access-Will-be-Retired/)
-- [Azure App Service üzerinde Ücretsiz WordPress Barındırma Planı](https://martinemre.github.io/azure/Free-Hosting-Plan-for-WordPress-on-Azure-App-Service/)
+- [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın.](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-005/)
+- [Dev/Test Ortamlarınız İçin Düşük Maliyetli Azure Bastion Developer SKU](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-004/)
+- [Application Gateway WAF &amp; Rate Limiting Özelliği ile Tanışın](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-003/)
+- [Azure VM`ler için Varsayılan Internet Erişimi Kullanımi Emekli Oluyor.](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-002/)
+- [Azure App Service üzerinde Ücretsiz WordPress Barındırma Planı](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-001/)
 <!-- BLOG-POST-LIST:END -->
 

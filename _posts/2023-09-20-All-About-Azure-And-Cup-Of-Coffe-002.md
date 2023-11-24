@@ -65,5 +65,4 @@ NAT Gateway her bir Public IP için 64512 SNAT bağlantı noktası destekler ve 
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ip.png?raw=true" width="95%" height="95%" />
 
-Sanal makinalar internet bağlantısı için Network Interface’lerine atanan Public IP’leri kullanılır. 
-Public IP ataması ile direk internet bağlantısına sahip olacağınız gibi aynı zamanda diğer kaynakların bu public ip üzerinden sizin makinanıza erişebilir olması demektir. Buda ciddi güvenlik riskleri demektir. Birden fazla sanal makinaya public IP atamak ve NSG kurallarını yönetmek bu hata riskini arttıracaktır.
+Sanal makineler, internet bağlantısı için Network Interface'lere atanmış olan Public IP'leri kullanır. Public IP ataması, sadece doğrudan internet bağlantısına sahip olmanızı değil, aynı zamanda diğer kaynakların bu Public IP üzerinden sizin makinenize erişebilir hale gelmesini de ifade eder. Birden fazla makine için Public IP atamak, ekstra zaman gerektireceği gibi yönetilmesi gereken NSG kuralları da, hata payı göz önünde bulundurulduğunda riskli bir yöntemdir

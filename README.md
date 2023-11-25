@@ -24,7 +24,7 @@
 - [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın.](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-005/)
 - [Dev/Test Ortamlarınız İçin Düşük Maliyetli Azure Bastion Developer SKU](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-004/)
 - [Application Gateway WAF &amp; Rate Limiting Özelliği ile Tanışın](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-003/)
-- [Azure VM`ler için Varsayılan Internet Erişimi Kullanımi Emekli Oluyor.](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-002/)
+- [Azure VM`ler için Varsayılan Internet Erişimi Emekli Oluyor.](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-002/)
 - [Azure App Service üzerinde Ücretsiz WordPress Barındırma Planı](https://martinemre.github.io/azure/All-About-Azure-And-Cup-Of-Coffe-001/)
 <!-- BLOG-POST-LIST:END -->
 

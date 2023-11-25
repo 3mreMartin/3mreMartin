@@ -1,4 +1,10 @@
-source "https://rubygems.org"
-gem 'jekyll-twitter-plugin'
-gem 'jekyll-algolia'
-gemspec
+
+
+
+
+
+
+
+
+
+gem "jekyll", "~> 4.3"

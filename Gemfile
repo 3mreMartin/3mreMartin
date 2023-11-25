@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 gem 'jekyll-twitter-plugin'
-gem 'jekyll-algolia'
+group :jekyll_plugins do
+  gem 'jekyll-algolia'
+end
 gemspec

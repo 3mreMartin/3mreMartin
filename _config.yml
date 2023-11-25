@@ -135,13 +135,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/emr3martin"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: github.com
+      url: "https://martinemre.github.io/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

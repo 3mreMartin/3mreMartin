@@ -33,5 +33,4 @@ Developer SKU şuan için sadece aşağıdaki Azure bölgelerinde kullanılabili
 * West US
 * North Europe
 
-Daha fazlası için:
-https://learn.microsoft.com/en-ie/azure/bastion/quickstart-developer-sku
+Daha fazlası için: [https://learn.microsoft.com/en-ie/azure/bastion/quickstart-developer-sku](https://learn.microsoft.com/en-ie/azure/bastion/quickstart-developer-sku)

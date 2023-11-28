@@ -27,7 +27,7 @@ Hazırda bekletme şuan için belirli sanal makina boyutu ve işletim sistemi s�
 * İşletim sistemi üzerinden VM'i hazırda bekletme, VM'nin hazırda bekleme durumuna geçmesine neden olmaz ve VM faturalandırılmaya devam eder.
 * Etkinleştirilen bir VM'de hazırda bekletme modunu devre dışı bırakamazsınız.
 
-##  Hazırda Bekletme ile Desteklenmeyen Özellikler:
+**Hazırda Bekletme ile Desteklenmeyen Özellikler:**
 
 * Ephemeral OS disks
 * Shared disks
@@ -42,7 +42,7 @@ Hazırda bekletme şuan için belirli sanal makina boyutu ve işletim sistemi s�
 
 Bir VM hazırda beklettiğinizde Azure, VM'nin işletim sistemine diski askıya alma eylemi gerçekleştirmesi için sinyal gönderir. Azure, VM'nin bellek içeriğini işletim sistemi diskinde depolar ve ardından VM'nin konumunu serbest bırakır. VM yeniden başlatıldığında bellek içerikleri işletim sistemi diskinden tekrar belleğe aktarılır. Daha önce VM'nizde çalışmakta olan uygulamalar ve işlemler, hazırda bekletme modundan önceki durumdan devam eder. 
 
-## Hazırda Mekletme Modunu Yapılandırma
+## Hazırda Bekletme Modunu Yapılandırma
 
 1. Bu özelliği kullanabilmek  için ilk **Azure Portal -> Preview features** altından **Hibernation Preview** özelliğini kayıt etmeniz gerekmekte. Dilerseniz bu işlemi PowerShell yada [CLI](https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume?tabs=osLimitsLinux%2CenablehiberPortal%2CcheckhiberPS%2CenableWithPortal%2CcliLHE%2CUbuntu18HST%2CPortalDoHiber%2CPortalStatCheck%2CPortalStartHiber%2CPortalImageGallery#enabling-hibernation-feature-for-your-subscription)ile de yapabilirsiniz. 
 
@@ -50,8 +50,6 @@ Bir VM hazırda beklettiğinizde Azure, VM'nin işletim sistemine diski askıya 
 
 <p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-I.png?raw=true" width="80%" height="80%" /></p>
 
-3.	İsletim sistemini hazırda bekletme için yapılandırın. Windows makinalar için yüklenen hazırda bekletme Extension’ı işletim sistemini hazırda bekletme için otomatik olarak yapılandırır. Linux makinalar için [buradan](https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume?tabs=osLimitsLinux%2CenablehiberPortal%2CcheckhiberPS%2CenableWithPortal%2CcliLHE%2CUbuntu18HST%2CPortalDoHiber%2CPortalStatCheck%2CPortalStartHiber%2CPortalImageGallery#option-1-linuxhibernateextension) yararlanabilirsiniz.
-
-Hazırda bekleme özelliği hazır, Azure portal üzerinden Hibernate seçeneği ile makinanızı hazırda bekleymeye alabilirsiniz.
+3. İsletim sistemini hazırda bekletme için yapılandırın. Windows makinalar için yüklenen hazırda bekletme Extension’ı işletim sistemini hazırda bekletme için otomatik olarak yapılandırır. Linux makinalar için [buradan](https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume?tabs=osLimitsLinux%2CenablehiberPortal%2CcheckhiberPS%2CenableWithPortal%2CcliLHE%2CUbuntu18HST%2CPortalDoHiber%2CPortalStatCheck%2CPortalStartHiber%2CPortalImageGallery#option-1-linuxhibernateextension) yararlanabilirsiniz. Bu yapilandirma sonrasinda Hazırda bekleme özelliğini Azure portal üzerinden **Hibernate** seçeneği ile kullanabilirsiniz.
 
 <p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-II.png?raw=true" width="80%" height="80%" /></p>

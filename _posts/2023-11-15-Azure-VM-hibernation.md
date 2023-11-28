@@ -1,5 +1,5 @@
 ---
-title: "Azure VM'leri Hazırda Bekleterek Maliyetlerinizi Azaltın"
+title: "Azure VM'leri Hazırda Bekleterek Maliyetlerinizi Düşürün"
 classes: wide
 author_profile: true
 categories:
@@ -10,7 +10,7 @@ tags:
 ---
 📢 **Public Preview**
 
-Yeni gelen bu özellik ile artık Azure VM’leri Hyper-V yada VMware ortamlarından alışkın olduğumuz şekilde hazırda bekletebilirsiniz (hibernate). Bir VM hazırda bekletildiğinde  makinanın belleğinde bulunan veriler korunarak VM serbest bırakılır (deallocating). Azure üzerinde bir VM serbest bırakıldığında, VM kullanımı için **faturalandırılmaz** yalnızca VM'ye bağlı depolama (İşletim Sistemi diski, veri diskleri) ve ağ kaynakları (IP'ler vb.) için faturalandırılırsınız.
+Yeni gelen bu özellik ile artık Azure VM’leri Hyper-V yada VMware ortamlarından alışkın olduğunuz şekilde hazırda bekletebilirsiniz (hibernate). Bir VM hazırda bekletildiğinde  makinanın belleğinde bulunan veriler korunarak VM serbest bırakılır (deallocating). Azure üzerinde bir VM serbest bırakıldığında, VM kullanımı için **faturalandırılmaz** yalnızca VM'ye bağlı depolama (İşletim Sistemi diski, veri diskleri) ve ağ kaynakları (IP'ler vb.) için faturalandırılırsınız.
 
 Şuan için önizlemede olan bu özellik ile test/geliştirme ve Azure Virtual Dekstop ortamlarındaki makinalar mesai bitiminden bir sonraki güne kadar hazırda bekletilerek ciddi tasarruf sağlanabilir. Hazırda bekletme makinanın belleğinde bulunan verileri koruduğudan dilediğiniz zaman uygulamaları yeniden açmaya gerek kalmadan kaldığından yerden çalışmaya devam edebilirsiniz.
 

@@ -1,5 +1,5 @@
 ---
-title: "Azure Özel Alt Ağlar & Private Subnet"
+title: "Azure Özel Ağlar Kullanarak Varsayılan İnternet Erişimini Devre Dışı Bırakın"
 classes: wide
 author_profile: true
 categories:

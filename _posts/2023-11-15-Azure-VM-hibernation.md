@@ -1,5 +1,5 @@
 ---
-title: "Azure VM'leri Hazırda Bekleterek Maliyetlerinizi Düşürün"
+title: "Azure Sanal Makinalarıi Hazırda Bekleterek Maliyetlerinizi Düşürün"
 classes: wide
 author_profile: true
 categories:

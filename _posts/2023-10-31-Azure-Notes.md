@@ -1,5 +1,5 @@
 ---
-title: "Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın."
+title: "Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın"
 classes: wide
 author_profile: true
 categories:

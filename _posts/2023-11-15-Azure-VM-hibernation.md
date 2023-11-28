@@ -48,10 +48,10 @@ Bir VM hazırda beklettiğinizde Azure, VM'nin işletim sistemine diski askıya 
 
 2.	Hazırda bekletme özelliğini aktif ederek bir makina oluşturun. Bu işlem Windows yada Linux makina için gerekli Extension’ı makinaya otomatik olarak yükleyecektir. Windows makinalar için Azure VM Agent’ında makinaya yüklü olması gerekmekte.
 
-<p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-I.png?raw=true" width="80%" height="80%" />
+<p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-I.png?raw=true" width="80%" height="80%" /></p>
 
 3.	İsletim sistemini hazırda bekletme için yapılandırın. Windows makinalar için yüklenen hazırda bekletme Extension’ı işletim sistemini hazırda bekletme için otomatik olarak yapılandırır. Linux makinalar için [buradan](https://learn.microsoft.com/en-us/azure/virtual-machines/hibernate-resume?tabs=osLimitsLinux%2CenablehiberPortal%2CcheckhiberPS%2CenableWithPortal%2CcliLHE%2CUbuntu18HST%2CPortalDoHiber%2CPortalStatCheck%2CPortalStartHiber%2CPortalImageGallery#option-1-linuxhibernateextension) yararlanabilirsiniz.
 
 Hazırda bekleme özelliği hazır, Azure portal üzerinden Hibernate seçeneği ile makinanızı hazırda bekleymeye alabilirsiniz.
 
-<p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-II.png?raw=true" width="80%" height="80%" />
+<p style="text-align: center;"><img src="https://github.com/martin3mre/martin3mre/blob/main/assets/images/azure-vm-hibernate-II.png?raw=true" width="80%" height="80%" /></p>

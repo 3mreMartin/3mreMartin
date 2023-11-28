@@ -18,6 +18,6 @@ Bu konu ile alakalı daha fazla ayrıntı için  Azure VM`ler için Varsayılan 
 
 Default Outbound Access kullanarak internete bağlanan mevcut sanal makinalarınız için 30 Eylül 2025 tarihine kadar gereksinimlerinize uygun olan ve önerilen yöntemlerden birini tercih etmeniz gerekiyor.  (Nat Gateway, Load Balancer, Public IP, Azure Firewall). **Yeni oluşturacağınız Subnet** ‘ler için ise; şuan için önizlemede olan **Private Subnet** özelliğini kullanarak Default Outbound Access‘i devre dışı bırakabilirsiniz.
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-private-subnet.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-private-Subnet.png?raw=true" width="95%" height="95%" />
 
 Bu özellik sadece yeni bir Virtual Network ile birlikte Subnet oluştururken kullanılabilmekte. Private Subnet özelliği aktif edilmiş bir Subnet’teki sanal makinalar internet bağlantısı için önerilen yöntemlerden birini kullanarak internete bağlanmaya devam edebilirler.

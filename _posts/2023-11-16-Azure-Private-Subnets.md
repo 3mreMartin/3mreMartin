@@ -12,7 +12,7 @@ tags:
 
 Azure sanal makinalar doğrudan internet bağlantısı için; NAT Gateway, Load Balancer yada sahip oldukları Public IP’leri kullanarak internete bağlanabilirler. Bu yöntemlerden herhangi biri kullanılmadığı zaman sanal makinalar Default Outbound Access olarak adlandırılan yöntemle yani IP havuzundan atanan rastgele bir Public IP adresini kullanarak internete bağlanır. Microsoft 30 Eylül 2025 itibarı ile  bu yöntemin kullanımdan kaldıracağını duyurmuştu. 
 
-Bu konu ile alakalı daha fazla ayrıntı için  Azure VM`ler için Varsayılan Internet Erişimi Emekli Oluyor adlı yazımı okumanızı tavsiye ederim.
+Bu konu ile alakalı daha fazla ayrıntı için  **[Azure VM`ler için Varsayılan Internet Erişimi Emekli Oluyor](https://martinemre.github.io/azure/Azure-VM-Internet-Accesss/)** adlı yazımı okumanızı tavsiye ederim.
 
 **Ne yapmamız lazım ?**
 

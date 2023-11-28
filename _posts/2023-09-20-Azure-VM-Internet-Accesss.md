@@ -10,7 +10,7 @@ tags:
   
 Belirli senaryolar Azure VM’lerin doğrudan internet bağlantısına sahip olmasını gerektirir. Azure sanal makineler, organizasyon ihtiyaçlarına uygun olarak NAT Gateway, Load Balancer veya Instance Level - Public IP kullanarak doğrudan internete bağlanabilirler. Her bir yöntemin ortak özelliği, internete erişim için kullanılan Public IP'nin size ait, sizin yönetiminizde ve başkaları tarafından kullanılmamasıdır. Bu yöntemler kullanılmadığında, Azure VM’ler, varsayılan olarak **Default Outbound Access** olarak adlandırılan yöntemle internete bağlanırlar.
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-direct-internet-acess.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-direct-internet-acess.png?raw=true" width="85%" height="85%" />
   
 Varsayılan bu yöntemde Azure VM’ler internet bağlantısı için IP havuzundan atanan rastgele bir Public IP adresini kullanırlar. Bu Public IP Microsoft’a ait olduğudan makinaların Stop/Deallocate durumlarında değişebilileceği gibi öncesinde hangi Public IP’yi kullanacağınızı belirlemeninde bir yolu yoktur ve bu sebebten üretim ortamlarında kullanılması önerilmez.
 
@@ -35,7 +35,7 @@ Internet ortamındaki bir kaynağa erişeceğiniz zaman sizin için Kısa Ömür
 
 **1.Azure Load Balancer**
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-loadbalancer-internet-acess.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-loadbalancer-internet-acess.png?raw=true" width="85%" height="85%" />
 
 Azure Load Balancer arkasına konumlandırılan sanal makinalar, Load Balancer üzerindeki Giden Kuralları (Outbound Rules) tanımlamalarına  göre SNAT yaparak Load Balancer’in Public IP yada IP’lerini kullanarak internete bağlanır. Load Balancer üzerinde SNAT port tahsisi manuel yada varsayılan olarak ayarlanabilir.
 
@@ -63,6 +63,6 @@ NAT Gateway her bir Public IP için 64512 SNAT bağlantı noktası destekler ve 
 
 **3.Instance Level Public IP**
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ip.png?raw=true" width="95%" height="95%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-instance-level-ip.png?raw=true" width="85%" height="85%" />
 
 Sanal makineler, internet bağlantısı için Network Interface'lere atanmış olan Public IP'leri kullanır. Public IP ataması, sadece doğrudan internet bağlantısına sahip olmanızı değil, aynı zamanda diğer kaynakların bu Public IP üzerinden sizin makinenize erişebilir hale gelmesini de ifade eder. Birden fazla makine için Public IP atamak, ekstra zaman gerektireceği gibi yönetilmesi gereken NSG kuralları da, hata payı göz önünde bulundurulduğunda riskli bir yöntemdir

@@ -1,5 +1,5 @@
 ---
-title: "Azure Site Recovery "Data Change Rate is beyond Supported Limits" Hatasinın Çözümü"
+title: "Azure Site Recovery "Data Change Rate is beyond Supported Limits" Hatası"
 classes: wide
 author_profile: true
 categories:

@@ -21,10 +21,10 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [Azure Özel Ağlar Kullanarak Varsayılan İnternet Erişimini Devre Dışı Bırakın](https://martinemre.github.io/azure/Azure-Private-Subnets/)
+- [Azure Site Recovery Data Change Rate is beyond Supported Limits Hatası](https://martinemre.github.io/azure/Data-Change-Rate-Beyond-Supported-Limits/)
+- [Azure Private Subnet ile Varsayılan İnternet Erişimini Devre Dışı Bırakın](https://martinemre.github.io/azure/Azure-Private-Subnets/)
 - [Azure Sanal Makinalarıi Hazırda Bekleterek Maliyetlerinizi Düşürün](https://martinemre.github.io/azure/Azure-VM-hibernation/)
 - [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın](https://martinemre.github.io/azure/Mars-Agent-Passphrase/)
 - [Dev/Test Ortamlarınız İçin Düşük Maliyetli Azure Bastion Developer SKU](https://martinemre.github.io/azure/Bastion-Developer-SKU/)
-- [Application Gateway WAF &amp; Rate Limiting Özelliği ile Tanışın](https://martinemre.github.io/azure/Application-Gateway-Rate-Limiting/)
 <!-- BLOG-POST-LIST:END -->
 

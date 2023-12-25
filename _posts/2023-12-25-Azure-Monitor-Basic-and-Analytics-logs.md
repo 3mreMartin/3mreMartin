@@ -31,37 +31,46 @@ tags:
 **Özetlemek Gerekirse:**
 
 <table>
-		<thead>
-			<tr>
-				<th>Kategori</th>
-				<th>Analytics Logs</th>
-				<th>Basic Logs</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>&nbsp;Günlük Toplama (Ingestion)</td>
-				<td>&nbsp;Standard ücretlendirme. GB Başına $2.76</td>
-				<td>&nbsp;Azaltılmış maliyet. GB başına $0.60</td>
-			</tr>
-			<tr>
-				<td>&nbsp;Günlük sorguları/Log queries</td>
-				<td>&nbsp;Tam sorgu yetenekleri. Ekstra maliyet yok</td>
-				<td>&nbsp;Temel sorgu yetenekleri. Sorgu başına $0.006</td>
-			</tr>
-			<tr>
-				<td>&nbsp;Saklama/Retention</td>
-				<td>Saklamayı
-30 günden iki yıla kadar yapılandırılabilir</td>
-				<td>Saklama süresi sekiz gün (Arşivleme ile 12 yıla kadar uzatılabilir)</td>
-			</tr>
-			<tr>
-				<td>&nbsp;Uyarılar/Alerts</td>
-				<td>&nbsp;Destekleniyor</td>
-				<td>&nbsp;Desteklenmiyor</td>
-			</tr>
-		</tbody>
+<thead>
+<tr>
+<th>Kategori</th>
+<th>Analytics Logs</th>
+<th>Basic Logs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;G&uuml;nl&uuml;k Toplama (Ingestion)</td>
+<td>&nbsp;Standard &uuml;cretlendirme. GB Başına $2.76</td>
+<td>
+<p>Azaltılmış maliyet.</p>
+<p>GB başına $0.60</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;G&uuml;nl&uuml;k sorguları</td>
+<td>Ekstra maliyet olmadan tam sorgu yetenekleri</td>
+<td>
+<p>Temel sorgu yetenekleri.</p>
+<p>Sorgu başına $0.006</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Saklama (Retention)</td>
+<td>Saklamayı 30 g&uuml;nden iki yıla kadar yapılandırılabilir</td>
+<td>
+<p>Saklama s&uuml;resi sekiz g&uuml;n</p>
+<p>(Arşivleme ile 12 yıla kadar uzatılabilir)</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Uyarılar(Alerts)</td>
+<td>&nbsp;Destekleniyor</td>
+<td>&nbsp;Desteklenmiyor</td>
+</tr>
+</tbody>
 </table>
+
 
 **Bir Tablonun Temel Günlük olarak Değiştirilmesi**
 

@@ -8,11 +8,9 @@ tags:
   - Azure Monitor
   - Log Analytics
 ---
- 
- <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-basic-logs-analytics-logs.png?raw=true" width="100%" height="100%" />
+  <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-basic-logs-analytics-logs.png?raw=true" width="100%" height="100%" />
 
- 
- Azure Monitor maliyetlerini etkileyen iki önemli ana etken bulunmaktadır. Bu faktörler; hangi günlüklerin (Logs) toplanacağı (Ingestion) ve bu günlüklerin Log Analytics Workspace üzerinde ne kadar süre (Retention) saklanacağıdır. Log Analytics Workspace'te, iki ayrı günlük veri planı bulunmaktadır: Temel ve Analitik Günlükler (Basic & Analytics).
+  Azure Monitor maliyetlerini etkileyen iki önemli ana etken bulunmaktadır. Bu faktörler; hangi günlüklerin (Logs) toplanacağı (Ingestion) ve bu günlüklerin Log Analytics Workspace üzerinde ne kadar süre (Retention) saklanacağıdır. Log Analytics Workspace'te, iki ayrı günlük veri planı bulunmaktadır: Temel ve Analitik Günlükler (Basic & Analytics).
 
  
 **Analitik Günlükler**, varsayılan olarak toplanan tüm günlükler için kullanılan veri planıdır. Toplanan günlükler analiz amacıyla kullanılabilir; istediğiniz kadar KQL sorgusu çalıştırabilir, uyarılar oluşturabilirsiniz. Bu veri planında toplanan günlükler, varsayılan olarak 30 güne kadar ücretsiz olarak saklanır.

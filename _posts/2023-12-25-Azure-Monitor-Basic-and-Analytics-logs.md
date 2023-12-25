@@ -10,8 +10,7 @@ tags:
 ---
   <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-basic-logs-analytics-logs.png?raw=true" width="100%" height="100%" />
 
-  Azure Monitor maliyetlerini etkileyen iki önemli ana etken bulunmaktadır. Bu faktörler; hangi günlüklerin (Logs) toplanacağı (Ingestion) ve bu günlüklerin Log Analytics Workspace üzerinde ne kadar süre (Retention) saklanacağıdır. Log Analytics Workspace'te, iki ayrı günlük veri planı bulunmaktadır: Temel ve Analitik Günlükler (Basic & Analytics).
-
+  Azure Monitor maliyetlerini etkileyen iki ana etken bulunmaktadır. Bu faktörler; hangi günlüklerin **(Logs)** toplanacağı **(Ingestion)** ve bu günlüklerin Log Analytics Workspace üzerinde ne kadar süre **(Retention)** saklanacağıdır. Log Analytics Workspace'te, günlüklerin toplama ve saklama maliyetleri ile doğrudan ilişkili, Temel ve Analitik Günlükler (Basic & Analytics) olmak üzere iki farklı günlük veri planı bulunmaktadır.
  
 **Analitik Günlükler**, varsayılan olarak toplanan tüm günlükler için kullanılan veri planıdır. Toplanan günlükler analiz amacıyla kullanılabilir; istediğiniz kadar KQL sorgusu çalıştırabilir, uyarılar oluşturabilirsiniz. Bu veri planında toplanan günlükler, varsayılan olarak 30 güne kadar ücretsiz olarak saklanır.
 
@@ -19,15 +18,15 @@ tags:
 
 **Temel Günlükler ile Kullanılabilecek KQL Sorguları:**
 
-•	where
-•	extend
-•	project
-•	project-away
-•	project-keep
-•	project-rename
-•	project-reorder
-•	parse
-•	parse-where
+* where
+* extend
+* project
+* roject-away
+* project-keep
+* project-rename
+* project-reorder
+* parse
+* parse-where
 
 **Özetlemek Gerekirse:**
 
@@ -41,9 +40,9 @@ tags:
 		</thead>
 		<tbody>
 			<tr>
-				<td>&nbsp;Günlük Toplama/ Ingestion</td>
+				<td>&nbsp;Günlük Toplama (Ingestion)</td>
 				<td>&nbsp;Standard ücretlendirme. GB Başına $2.76</td>
-				<td>&nbsp;Azaltılmış alım maliyeti. GB başına $0.60</td>
+				<td>&nbsp;Azaltılmış maliyet. GB başına $0.60</td>
 			</tr>
 			<tr>
 				<td>&nbsp;Günlük sorguları/Log queries</td>
@@ -69,3 +68,6 @@ tags:
 Bir tablo için günlük veri planı Analitik’ten Temel olarak değiştirildiğinde o tabloya ait 8 günden eski olan günlükler silinir yada arşivlenir. Günlük veri planı haftada sadece bir kez değiştirebilir. Bir tablo için günlük veri planını Azure Portal, CLI, API yada PowerShell ile değiştrebilirsiniz.
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-log-plans-basic.png?raw=true" width="100%" height="100%" />
+
+Temel Günlükler ile desteklenen tabloların listesine [**Buradan**](https://learn.microsoft.com/en-ie/azure/azure-monitor/logs/basic-logs-configure?tabs=portal-1#supported-tables) erişebilirsiniz.
+ 

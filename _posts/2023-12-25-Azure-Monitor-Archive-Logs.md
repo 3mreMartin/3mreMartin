@@ -1,5 +1,5 @@
 ---
-title: "Azure Monitor Maliyetlerinizi Günlükleri Arşivleyerek Düşünürün"
+title: "Azure Monitor Maliyetlerinizi Günlükleri Arşivleyerek Azaltin"
 classes: wide
 author_profile: true
 categories:
@@ -27,7 +27,7 @@ Etkileşimli saklama süresince günlükler izleme, sorun giderme ve analiz içi
 
 Varsayılan olarak, çalışma alanınızdaki tüm tablolar, çalışma alanının etkileşimli saklama (Data Retention) ayarını devralır ve arşivleri yoktur. Arşivleme her bir tablo için ayrı olarak ayarlanabilir.  Arşivlenen günlükler için toplam saklama süresi olarak 4383 güne (12 yıl) kadar çıkartılabilir. Arşivlenen günlüklere Seach-Job kullanarak yada Restore(Geri yükleme) ile erişilebilir.
 
-##Search Jobs & Restore##
+## Search Jobs & Restore
 
 **Search Jobs**
 
@@ -42,9 +42,9 @@ Belirli bir zaman aralığındaki  Arşivlenmiş Günlükleri geri yüklemek iç
 * Çalışma alanı başına 100 arama sonucu tablosuyla sınırlıdır.
 * Çalışma alanı başına günde 100 arama işi yürütmesiyle sınırlıdır.
 
-  <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/auzre-log-seach-job.png?raw=true" width="100%" height="100%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/auzre-log-seach-job.png?raw=true" width="100%" height="100%" />
 
-  Arama işleri, belirli bir tablodaki büyük hacimli verileri taramayı amaçlamaktadır. Bu nedenle, arama işi sorguları her zaman bir tablo adıyla başlamalıdır. Arama işleri kullanıldığında KQL sorgu dilinde sadece belirli komutlar desteklenmektedir:
+Arama işleri, belirli bir tablodaki büyük hacimli verileri taramayı amaçlamaktadır. Bu nedenle, arama işi sorguları her zaman bir tablo adıyla başlamalıdır. Arama işleri kullanıldığında KQL sorgu dilinde sadece belirli komutlar desteklenmektedir:
 
 * where
 * extend
@@ -69,12 +69,12 @@ Geri yükleme (Restore), Arama işlerinde  olduğu gibi arşivlenen günlüklere
 * Zaten etkin bir geri yüklemeye sahip bir tabloda ikinci bir geri yüklemenin yürütülmesi başarısız olur.
 * Haftada tablo başına en fazla dört geri yükleme gerçekleştirilebilir.
 
-##Ücretlendirme Modeli##
+## Ücretlendirme Modeli
 
 
 **Search Jobs**
 
-Arama işlerinde ücretlendirme:
+Arama işlerinde ücretlendirme tararnan veri miktarı ve sonuçlara göre uygulanır.
 
 Arama işi yürütme: Arama işinin taradığı veri miktarı.
 Arama işi sonuçları: Normal günlük verileri alma fiyatlarına göre, arama işinin bulduğu ve sonuçlar tablosuna alınan veri miktarı.
@@ -89,14 +89,14 @@ Geri yüklenen günlüklerin ücreti, geri yüklediğiniz verilerin hacmine ve h
 
 Örneğin, tablonuzda günde 500 GB veri varsa ve 10 günlük veriyi geri yüklerseniz, geri yüklenen verileri kapatana kadar günde 5000 GB ücretlendirilirsiniz.
 
-##Saklanan Verilerin Temizlenmesi##
+## Arşivlenen Günlüklerin Temizlenmesi
 
 Her iki yöntemdede çalışma alanındaki veri saklamaya ilişkin ekstra ücretlerden kaçınmak için geri yüklenen yada arama işleri ile getirilen tabloları silmeniz önerilir.
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/auzre-log-delete-archive-logs.png?raw=true" width="100%" height="100%" />
 
 
-##Benzersiz Saklama Dönemlerine Sahip Tablolar##
+## Benzersiz Saklama Dönemlerine Sahip Tablolar
 
 Varsayılan olarak, Usage ve AzureActivity günlükleri ücretsiz olarak 90 gün boyunca saklanır. Eğer saklama süresini Workspace seviyesinde (Data Retention) 90 günün üzerine cıkardığınızda bu tabloların saklama süresinide ücretsiz olarak arttırmış olursunuz. cıkardığınızda bu tabloların saklama süresinide ücretsiz olarak arttırmış olursunuz. Application Insights kaynaklarıyla ilgili tabloların verileride 90 gün boyunca ücretsiz olarak saklanır. Dilerseniz bu toblolarında her biri için ayrı ayrı saklama süresi ayarlayabilirsiniz.
 
@@ -112,7 +112,7 @@ Varsayılan olarak, Usage ve AzureActivity günlükleri ücretsiz olarak 90 gün
 * AppSystemEvents
 * AppTraces
 
-**Fiyatlandırma**
+## Arşivlenen Günlükler için Ücretlendirme
 
 Arşivlenmiş günlüklerin bakım ücreti, GB cinsinden arşivlediğiniz veri hacmine ve verileri arşivlediğiniz gün sayısına veya gün sayısına göre hesaplanır.
 Etkileşimli saklama (Interactive retention) ile günlükleri 31 gün ücretsiz olarak saklayabilirsiniz (Microsoft Sentinel ile 90 gün) sonrasında GB başına $0.10 olarak ücretlendirilir. Bu fiyatlandırma Arşiv (Archive)’lenen günlükler için GB başına $0.02 ‘dır. 

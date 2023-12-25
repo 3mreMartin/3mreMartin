@@ -21,10 +21,10 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [Azure Monitor Basic ve Analytics Günlükler](https://martinemre.github.io/azure/Azure-Monitor-Basic-and-Analytics-logs/)
+- [Azure Monitor Temel Günlükler vs Analitik Günlükler](https://martinemre.github.io/azure/Azure-Monitor-Basic-and-Analytics-logs/)
+- [Azure Monitor Maliyetlerinizi Günlükleri Arşivleyerek Azaltin](https://martinemre.github.io/azure/Azure-Monitor-Archive-Logs/)
 - [Azure Site Recovery Data Change Rate is beyond Supported Limits Hatası](https://martinemre.github.io/azure/Data-Change-Rate-Beyond-Supported-Limits/)
 - [Azure Private Subnet ile Varsayılan İnternet Erişimini Devre Dışı Bırakın](https://martinemre.github.io/azure/Azure-Private-Subnets/)
 - [Azure Sanal Makinalarıi Hazırda Bekleterek Maliyetlerinizi Düşürün](https://martinemre.github.io/azure/Azure-VM-hibernation/)
-- [Azure Backup MARS Ajanı Parolasını Azure Key Vault’ta Güvenli Bir Şekilde Saklayın](https://martinemre.github.io/azure/Mars-Agent-Passphrase/)
 <!-- BLOG-POST-LIST:END -->
 

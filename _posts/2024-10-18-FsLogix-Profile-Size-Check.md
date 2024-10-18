@@ -8,7 +8,7 @@ tags:
   - Azure Virtual Desktop
 ---
 Azure Virtual Desktop ortamlarinda kullanici profil yönetimi için kullandığımız Fslogix kullanıcı verilerini konteyner (Profil yada ODFC) 
-adını verdiğimiz VHD/VHDX formatındaki sanal diskler içerisinde saklanmasına olanak sağlar. Bu konteynerlar için varsayılan boyut 30 GB olmakla birlikte gerekli olması durumunda **SizeInMBs** anahtarını değiştirerek yükseltilebilir. Konteyner boyutlarının takip altında tutulması son kullanıcılara kötü bir deneyim yaşatmamak adına önemlidir neticede sanal disk kullanimi %100 ulaşmış kullanıcılar sağlıklı bir şekilde çalışmaya devam edemezler. Konteyner boyutlarını takip etmek için AVD ortamlarında **WVDCheckpoints** günlüklerini aktif ettikten sonra aşağıdaki Log Analytics sorgusunu kullanarak VHD/VHDX boyutlarını takip edebilir ve gerekli uyarıları oluşturabilirsiniz.
+adını verdiğimiz VHD/VHDX formatındaki sanal diskler içerisinde saklanmasına olanak sağlar. Konteynerlar için varsayılan boyut 30 GB olmakla birlikte gerekli olması durumunda **SizeInMBs** anahtarını değiştirerek yükseltilebilir. Konteyner boyutlarının takip altında tutulması son kullanıcılara kötü bir deneyim yaşatmamak adına önemlidir neticede sanal disk kullanimi %100 ulaşmış kullanıcılar sağlıklı bir şekilde çalışmaya devam edemezler. Konteyner boyutlarını takip etmek için AVD ortamlarında **WVDCheckpoints** günlüklerini aktif ettikten sonra aşağıdaki Log Analytics sorgusunu kullanarak VHD/VHDX boyutlarını takip edebilir ve gerekli uyarıları oluşturabilirsiniz.
 
 
 WVDCheckpoints

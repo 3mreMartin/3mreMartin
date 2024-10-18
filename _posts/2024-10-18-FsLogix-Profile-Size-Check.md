@@ -13,14 +13,11 @@ adını verdiğimiz VHD/VHDX formatındaki sanal diskler içerisinde saklanması
 Konteyner boyutlarını takip etmek için AVD ortamlarında **WVDCheckpoints** günlüklerini aktif ettikten sonra aşağıdaki Log Analytics sorgusunu kullanarak VHD/VHDX boyutlarını takip edebilir ve gerekli uyarıları oluşturabilirsiniz.
 
 
-
-
-
 <pre>
 WVDCheckpoints
     | where (Name=="ProfileLoggedOff" or Name=="ODFCLoggedOff")
     and (Source=="RDAgent" or Source=="FSLogix")
-    and TimeGenerated>ago(360d)
+    and TimeGenerated>ago(90d)
     | extend ProfileType=iff(Name=="ProfileLoggedOff","Profile","ODFC")
     | summarize arg_max(TimeGenerated, *) by UserName, ProfileType
     | extend ["VHD Size On Disk"]=todouble(replace_string(replace_string(tostring(Parameters.VHDSizeOnDisk),",",""),".","")),
@@ -33,5 +30,5 @@ WVDCheckpoints
     ["VHD Max Size"],
     Usage=100*(["VHD Max Size"]-["VHD Free Space"])/["VHD Max Size"]
     | order by ["Usage"] desc
-    | where Usage > 80
+    | where Usage > 50
 </pre>

@@ -26,3 +26,10 @@ Azure Bastion, Portal aracılı ile sanal makinalar arasında bir köprü görev
 Premium SKU Bastion ile gelen  yeni **private-only**  dağıtım modeli ile Bastion Host’ın Public IP adres gereksinimi ortadan kaldırılmış durumda.  Şuan için önizleme olarak kullanıma sunulan bu modelde Azure Bastion ve Portal arasındaki iletişim tamamen kapalı devre olarak Private IP adresi üzerinden gerçekleşmekte. Kapalı devre olarak yapılandırılan bu Bastion dağıtımını kullanabilmek için kullanıcıların tabiki AzureBastion Subnet’i ile networksel bağlantısının (ExpressRoute, VPN, Peerin) olması gerekmektedir.
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/Azure-Bastion-Private.png?raw=true" width="100%" height="100%" />
+
+**Aklınızda Bulunsun:**
+
+*	Private-only Bastion dağıtımı Premium SKU gerektirir ve sadece dağıtım aşamasında yapılandırılabilir.
+*	Normal bir Bastion dağıtımından Private-only dağıtıma geçiş yapamazsınız.
+*	Private-only Bastion dağıtımı için mevcut Bastion'un sanal ağdan kaldırılması ve Private-only olarak dağıtılması gerekir (AzureBastionSubnet'i silmeniz ve yeniden oluşturmanız gerekmez)
+*	İstemci makineniz şirket içinde ve Azure dışındaysa, bir ExpressRoute veya VPN dağıtmanız ve Bastion kaynağında IP tabanlı bağlantıyı etkinleştirmeniz gerekir.

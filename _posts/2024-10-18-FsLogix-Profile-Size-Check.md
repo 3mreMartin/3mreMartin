@@ -1,5 +1,5 @@
 ---
-title: "Fslogix Profil Boyutlarinin Takip Edilmesi"
+title: "AVD - Fslogix Profil Boyutlarinin Takip Edilmesi"
 classes: wide
 author_profile: true
 categories:

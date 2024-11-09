@@ -1,5 +1,5 @@
 ---
-title: "Azure VM`ler için Varsayılan Internet Erişimi Emekli Oluyor."
+title: "Azure: VM`ler için Varsayılan Internet Erişimi Emekli Oluyor."
 classes: wide
 author_profile: true
 categories:

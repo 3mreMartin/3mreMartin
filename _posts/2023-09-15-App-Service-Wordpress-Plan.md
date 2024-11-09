@@ -1,5 +1,5 @@
 ---
-title: "Azure App Service üzerinde Ücretsiz WordPress Barındırma Planı"
+title: "Azure: App Service üzerinde Ücretsiz WordPress Barındırma Planı"
 classes: wide
 author_profile: true
 categories:

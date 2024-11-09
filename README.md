@@ -21,10 +21,10 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [AVD - Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
+- [Azure Virtual Desktop- Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
 - [Public IPsiz - Özel Azure Bastion Dağıtımı](https://martinemre.github.io/azure/Azure-Bastion-Private-IP/)
+- [A’ dan Z’ye Azure VM: Bölüm 1 – Lisanslama](https://martinemre.github.io/azure/Azure-VM-AHUB/)
+- [Azure VM üzerindeki Geçici Diskler Ne İşe Yarar ?](https://martinemre.github.io/azure/Azure-VM-Temporary-Diskler/)
 - [Azure Monitor Temel Günlükler vs Analitik Günlükler](https://martinemre.github.io/azure/Azure-Monitor-Basic-and-Analytics-logs/)
-- [Azure Monitor Maliyetlerinizi Günlükleri Arşivleyerek Azaltin](https://martinemre.github.io/azure/Azure-Monitor-Archive-Logs/)
-- [Azure Site Recovery Data Change Rate is beyond Supported Limits Hatası](https://martinemre.github.io/azure/Data-Change-Rate-Beyond-Supported-Limits/)
 <!-- BLOG-POST-LIST:END -->
 

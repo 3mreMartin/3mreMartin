@@ -1,5 +1,5 @@
 ---
-title: "AVD - Fslogix Profil Boyutlarinin Takip Edilmesi"
+title: "Azure Virtual Desktop- Fslogix Profil Boyutlarinin Takip Edilmesi"
 classes: wide
 author_profile: true
 categories:

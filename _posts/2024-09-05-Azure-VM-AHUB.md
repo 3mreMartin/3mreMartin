@@ -17,7 +17,7 @@ tags:
 Azure Hybrid Benefit, Microsoft’un Azure üzerindeki Windows Server lisans maliyetlerini düşürmek amacıyla kullanıcılara sunduğu bir programdır. Bu program kapsamında, Yazılım Güvencesine (Software Assurance) sahip aktif bir lisans anlaşmanız veya aboneliğiniz varsa, sahip olduğunuz şirket içi Windows lisanslarınızı Azure üzerinde kullanabilmenize olanak tanır.
 
 
-## Lisans Gereksiimleri
+## Lisans Gereksinimleri
 
  Azure Hybrid Benefit'ten yararlanabilmek için Windows Server için şu lisanslara sahip olmanız gerekmekte:
 
@@ -38,12 +38,11 @@ Azure Hybrid Benefit Azure portal üzerinden bir sanal makina oluşturken aktif 
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-enable-ahub.png?raw=true" width="85%" height="85%" />
 
-Birden fazla Windows server üzerinde Azure Hybrid Benefit’i aktif etmek için aşağıdaki script’i kullanabilirsiniz:
-
+Birden fazla Windows server üzerinde Azure Hybrid Benefit’i aktif etmek için şu script’i kullanabilirsiniz:
 https://github.com/NeilBird/PowerShell-Snippnets/tree/main
 
 **Windows 10/11?**
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-ahub-win10.png?raw=true" width="85%" height="85%" />
 
-Mevcut Windows 10/11 lisanslarınızı Azure üzerinde kullanabilmek için sahip olduğunuz lisansların **multi-tenant hosting rights** haklarına sahip olması gerekir. Yani tek bir kullanıcıya atanan bir lisansın, Windows 11 Enterprise E3/E5 ya da Virtual Desktop Access lisansı gibi birden fazla platform/cihazda kullanılabilirliği desteklemesi gerekir. Bu kullanılabilirlik, kullanıcının aynı Windows’u hem laptopta hem Azure'da hem de AVD ortamında kullanabilmesine olanak sağlar.
+Mevcut Windows 10/11 lisanslarınızı Azure üzerinde kullanabilmek için sahip olduğunuz lisansların **Multi-Tenant Hosting Rights** haklarına sahip olması gerekir. Yani tek bir kullanıcıya atanan bir lisansın, Windows 11 Enterprise E3/E5 ya da Virtual Desktop Access lisansı gibi birden fazla platform/cihazda kullanılabilirliği desteklemesi gerekir. Bu kullanılabilirlik, kullanıcının aynı Windows’u hem laptopta hem Azure'da hem de AVD ortamında kullanabilmesine olanak sağlar.

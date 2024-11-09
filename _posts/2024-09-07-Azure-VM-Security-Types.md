@@ -23,7 +23,7 @@ Güvenilir Başlatma (Trusted Launch), Azure tarafından sanal makineler için s
 
 Güvenilir Başlatma, özellikle önyükleme sürecini ve sanal makinelerinizin durumunu korumak için güvenli önyükleme, virtual trusted platform module (vTPM), ve virtual machine console (VMC) gibi gelişmiş teknolojileri kullanarak  sanal makinelerinizin önyükleme sürecini hedef alan kötü niyetli tehditlere karşı korunmasını sağlar.
 
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-trusted-launch?raw=true" width="85%" height="85%"/>
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-trusted-launch.png?raw=true" width="85%" height="85%"/>
 
 **Güvenilir Başlatma (Secure Boot)**
 

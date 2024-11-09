@@ -24,4 +24,5 @@ Genişletilmiş Bölgeler, normal Azure veri merkezlerinin yerine daha yerel bir
 * **Storage:** Managed disks, Premium Page Blobs, Premium Block Blobs, Premium Files, Data Lake Storage Gen2, Hierarchical Namespace, Data Lake Storage Gen2
 * **BCDR:** Azure Site Recovery, Azure Backup
 
-*Daha fazlasi için:* https://learn.microsoft.com/en-us/azure/extended-zones/overview
+*Daha fazlasi için:* 
+[https://learn.microsoft.com/en-us/azure/extended-zones/overview](https://learn.microsoft.com/en-us/azure/extended-zones/overview)]

@@ -52,9 +52,9 @@ HVCI, Windows çekirdek modu süreçlerini kötü niyetli veya doğrulanmamış 
 *	Nested virtualization
 *	Linux VM Hibernation
 
-Trusted Lauch için desteklenen sanal makina ve işletim sistemlerinin listesine buradan erişebilirsiniz:
-*https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#virtual-machines-sizes*
-*https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#operating-systems-supported*
+*Trusted Lauch için desteklenen sanal makina ve işletim sistemlerinin listesine buradan erişebilirsiniz:* 
+* [https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#virtual-machines-sizes](https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#virtual-machines-sizes)
+* [https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#operating-systems-supported](https://learn.microsoft.com/en-gb/azure/virtual-machines/trusted-launch#operating-systems-supported)
 
 ## Confidential virtual machines
 

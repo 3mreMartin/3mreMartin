@@ -19,10 +19,9 @@ Genişletilmiş Bölgeler, normal Azure veri merkezlerinin yerine daha yerel bir
 
 **Genişletilmiş Bölgeler ile şuan için kullanılabilecek servisler:**
 
-**Compute:** Azure Kubernetes Service, Azure Virtual Desktop, Virtual Machine Scale Sets, Virtual machines
-**Networking:** DDoS, ExpressRoute, Private Link, Standard Load Balancer,Standard public IP, Virtual Network,Virtual network peering
-**Storage:** Managed disks, Premium Page Blobs, Premium Block Blobs, Premium Files, Data Lake Storage Gen2, Hierarchical Namespace, Data Lake Storage Gen2
-**BCDR:** Azure Site Recovery, Azure Backup
+* **Compute:** Azure Kubernetes Service, Azure Virtual Desktop, Virtual Machine Scale Sets, Virtual machines
+* **Networking:** DDoS, ExpressRoute, Private Link, Standard Load Balancer,Standard public IP, Virtual Network,Virtual network peering
+* **Storage:** Managed disks, Premium Page Blobs, Premium Block Blobs, Premium Files, Data Lake Storage Gen2, Hierarchical Namespace, Data Lake Storage Gen2
+* **BCDR:** Azure Site Recovery, Azure Backup
 
-Daha fazlasi için: https://learn.microsoft.com/en-us/azure/extended-zones/overview
-
+*Daha fazlasi için:* https://learn.microsoft.com/en-us/azure/extended-zones/overview

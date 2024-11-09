@@ -9,9 +9,7 @@ tags:
   - AHUB
 ---
 
-azure-vm-ahub
-
-<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-ahub.png?raw=true" width="85%" height="85%" />
+<img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-ahub.png?raw=true" width="85%" height="85%"/>
 
 ## Azure Hybrid Benefit Nedir ?
 

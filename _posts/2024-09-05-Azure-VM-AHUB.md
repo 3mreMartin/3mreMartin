@@ -38,8 +38,7 @@ Azure Hybrid Benefit Azure portal üzerinden bir sanal makina oluşturken aktif 
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-enable-ahub.png?raw=true" width="85%" height="85%" />
 
-Birden fazla Windows server üzerinde Azure Hybrid Benefit’i aktif etmek için şu script’i kullanabilirsiniz:
-https://github.com/NeilBird/PowerShell-Snippnets/tree/main
+Birden fazla Windows server üzerinde Azure Hybrid Benefit’i aktif etmek için [bu](https://github.com/NeilBird/PowerShell-Snippnets/tree/main) script’i kullanabilirsiniz:
 
 **Windows 10/11?**
 

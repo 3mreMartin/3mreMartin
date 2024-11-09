@@ -79,5 +79,5 @@ Gizli işletim sistemi disk şifrelemesi sanal makine oluşturma süresini uzata
 *	Screenshots under boot diagnostics
 
 *Confidential Virtual Machines ile desteklenen sanal makina ve işletim sistemlerinin listesine buradan erişebilirsiniz:* 
-[https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#size-support](https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#size-support)
-[https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#os-support](https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#os-support)
+* [https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#size-support](https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#size-support)
+* [https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#os-support](https://learn.microsoft.com/en-us/azure/confidential-computing/confidential-vm-overview#os-support)

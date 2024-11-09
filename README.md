@@ -21,7 +21,7 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
-- [Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
+- [AVD - Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
 - [Public IPsiz - Özel Azure Bastion Dağıtımı](https://martinemre.github.io/azure/Azure-Bastion-Private-IP/)
 - [Azure Monitor Temel Günlükler vs Analitik Günlükler](https://martinemre.github.io/azure/Azure-Monitor-Basic-and-Analytics-logs/)
 - [Azure Monitor Maliyetlerinizi Günlükleri Arşivleyerek Azaltin](https://martinemre.github.io/azure/Azure-Monitor-Archive-Logs/)

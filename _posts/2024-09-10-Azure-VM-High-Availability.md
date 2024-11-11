@@ -1,5 +1,5 @@
 ---
-title: "A’ dan Z’ye Azure VM: Bölüm 2 – Sanal Makina Güvenlik Türleri"
+title: "A’ dan Z’ye Azure VM: Bölüm 3 – Yüksek Erişebilirlik Seçenekleri"
 classes: wide
 author_profile: true
 categories:
@@ -7,6 +7,7 @@ categories:
 tags:
   - Azure Compute
   - Azure High Availability
+  - AzureAvailability 
 ---
 
 Microsoft’un bulut hizmetlerini sağlamak için dünya genelinde bir çok fiziksel veri merkezi bulunmaktadır. Bu veri merkezleri  dünya genelinde Avrupa’dan Asya’ya, Amerika’dan Avusturalya’ya olmak üzere farklı kıtalarda yer almaktadır. Azure dünyasında veri merkezlerinin bulunduğu bu lokasyonlara *Bölge* (Azure Region) adı verilir ve her bölge, bir veya daha fazla veri merkezinden oluşur.  
@@ -50,12 +51,11 @@ Kullanılabilirlik Bölgesi (Kullanılabilirlik Bölgesi) en başta bahsettiğim
 
 Availability Zone içerisine dahil ettiğiniz sanal makinalar için verilen SLA %99.99 yani yilda en fazla ~ 53 dk lik kabul edilebilir bir kesinti demektir. Bir sanal makinayı Availability zone içerisine dahil edeceğiniz zaman sanal makinanın hangi bölgede (Zone) olması gerektiğini seçmeniz gerekir.  Birden fazla bölge seçmeniz durumunda sanal makinanın bir kopyası seçtiğiniz diğer bölgelerdede oluşturulur diğer bölgelerde oluşturulan makinalar içinde ayrıca ücretlendirilirsiniz. 
 
-.png
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/azure-vm-availability-zone-2.png?raw=true" width="85%" height="85%"/>
 
-Availability Zone, sanal makinalar haricinde diğer Azure servisleri ile de kullanılabilir. Availability Zone destekleyen Azure Servisleri iki kategoriye ayrılır:
+*Availability Zone*, sanal makinalar haricinde diğer Azure servisleri ile de kullanılabilir. Availability Zone destekleyen Azure Servisleri iki kategoriye ayrılır:
 
-Zonal Services (Bölgesel Servisler): Belirli bir Zone içerisine aldığınız servislerdir. (VM, Managed Disks, IPs) 
+*Zonal Services (Bölgesel Servisler):* Belirli bir Zone içerisine aldığınız servislerdir. (VM, Managed Disks, IPs) 
 Zone-Redundant Services (Bölge-Yedeklemeli Hizmetler): Zone’lar arasında platform replikasyonu kullanan servislerdir. (Zone-redundant storage, SQL Database)
 
 *Daha fazlasi için:* 

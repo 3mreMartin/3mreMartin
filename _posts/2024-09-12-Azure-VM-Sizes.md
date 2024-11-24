@@ -1,5 +1,5 @@
 ---
-title: "A’ dan Z’ye Azure VM: Bölüm 4 – Azure VM Boyutları"
+title: "A’ dan Z’ye Azure VM: Bölüm 5 – Azure VM Boyutları"
 classes: wide
 author_profile: true
 categories:

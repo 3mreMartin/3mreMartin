@@ -24,7 +24,7 @@
 - [Azure Virtual Desktop - Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
 - [Public IPsiz - Özel Azure Bastion Dağıtımı](https://martinemre.github.io/azure/Azure-Bastion-Private-IP/)
 - [Azure Extended Zone &amp; Genişletilmiş Azure Bölgeleri](https://martinemre.github.io/azure/Azure-Extended-Zones/)
-- [A’ dan Z’ye Azure VM: Bölüm 4 – Azure VM Boyutları](https://martinemre.github.io/azure/Azure-VM-Sizes/)
-- [A’ dan Z’ye Azure VM: Bölüm 4 – Azure VM Spot Instance](https://martinemre.github.io/azure/Azure-VM-Spot-Instance/)
+- [A’ dan Z’ye Azure VM: Bölüm 6 – Azure VM Guest OS Updates](https://martinemre.github.io/azure/Azure-VM-Guest-OS-Updates/)
+- [A’ dan Z’ye Azure VM: Bölüm 6 – Azure VM Hibernation](https://martinemre.github.io/azure/Azure-VM-Hibernation/)
 <!-- BLOG-POST-LIST:END -->
 

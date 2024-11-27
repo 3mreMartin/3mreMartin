@@ -29,7 +29,8 @@ Yani sistem genelindeki ayarlarda VHDLocation, Nesne özelinde (kullanıcı yada
 
 <img src="https://github.com/martinemre/martinemre.github.io/blob/main/assets/images/avd-fslogix-object-specific-settings.png?raw=true" width="100%" height="100%" />
 
-AD ortamında bir kullanıcı yada grubun SID ‘ini bulmak için şui powershell komutunu kullanabilirsiniz: *get-aduser -Identity username | select name, SID*
+AD ortamında bir kullanıcı yada grubun SID ‘ini bulmak için şu powershell komutunu kullanabilirsiniz: *get-aduser -Identity username | select name, SID*
+
 
 *Daha fazlasi için:* 
 [https://learn.microsoft.com/en-us/fslogix/how-to-configure-object-specific-settings](https://learn.microsoft.com/en-us/fslogix/how-to-configure-object-specific-settings)

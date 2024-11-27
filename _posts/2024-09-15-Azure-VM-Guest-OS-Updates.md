@@ -1,5 +1,5 @@
 ---
-title: "A’ dan Z’ye Azure VM: Bölüm 6 – Azure VM Guest OS Updates"
+title: "A’ dan Z’ye Azure VM: Bölüm 7 – Azure VM Guest OS Updates"
 classes: wide
 author_profile: true
 categories:

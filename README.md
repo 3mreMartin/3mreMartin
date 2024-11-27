@@ -21,10 +21,10 @@
   
 ## 📩 Latest Blog Posts 
 <!-- BLOG-POST-LIST:START -->
+- [AVD - FSLogix ve Kullanıcı ve Grup Nesnelerine Özel Yapılandırmalar](https://martinemre.github.io/azure%20virtual%20desktop/AVD-Object-Spesific-Fslogix-Settings/)
 - [Azure Virtual Desktop - Fslogix Profil Boyutlarinin Takip Edilmesi](https://martinemre.github.io/azure/FsLogix-Profile-Size-Check/)
 - [Public IPsiz - Özel Azure Bastion Dağıtımı](https://martinemre.github.io/azure/Azure-Bastion-Private-IP/)
 - [Azure Extended Zone &amp; Genişletilmiş Azure Bölgeleri](https://martinemre.github.io/azure/Azure-Extended-Zones/)
-- [A’ dan Z’ye Azure VM: Bölüm 6 – Azure VM Guest OS Updates](https://martinemre.github.io/azure/Azure-VM-Guest-OS-Updates/)
-- [A’ dan Z’ye Azure VM: Bölüm 6 – Azure VM Hibernation](https://martinemre.github.io/azure/Azure-VM-Hibernation/)
+- [A’ dan Z’ye Azure VM: Bölüm 7 – Azure VM Guest OS Updates](https://martinemre.github.io/azure/Azure-VM-Guest-OS-Updates/)
 <!-- BLOG-POST-LIST:END -->
 
